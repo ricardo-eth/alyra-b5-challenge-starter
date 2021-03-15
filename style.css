@@ -1,0 +1,59 @@
+:root {
+  --dark: #212121;
+  --grey: #6c757d;
+  --light: #f8f9fa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;;
+}
+
+/* header */
+
+header h1 {
+  font-family: 'Libre Baskerville', Arial, sans-serif;
+}
+
+
+/* Navigation */
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 4px 10px;
+  color: var(--grey);
+}
+
+nav a:hover, 
+nav .active {
+  color: var(--dark);
+}
+
+.navbar-container {
+  padding: 5px 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #363b41;
+}
+
+/* main */
+
+main {
+  height: 5000px;
+}
