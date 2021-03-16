@@ -24,6 +24,10 @@ header h1 {
   font-family: 'Libre Baskerville', Arial, sans-serif;
 }
 
+header a {
+  color :var(--dark);
+}
+
 
 /* Navigation */
 
@@ -50,10 +54,4 @@ nav .active {
 
 footer {
   background-color: #363b41;
-}
-
-/* main */
-
-main {
-  height: 5000px;
 }
