@@ -16,19 +16,20 @@ html {
   box-sizing: inherit;
 }
 
+a, a:hover{
+  color :var(--dark);
+  text-decoration: none;
+}
+
+.font-baskerville {
+ font-family: var(--baskerville)
+}
+
 body {
   font-family: var( --montserrat);
 }
 
 /* header */
-
-header h1 {
-  font-family: var(--baskerville)
-}
-
-header a {
-  color :var(--dark);
-}
 
 /* Navigation */
 
@@ -37,7 +38,6 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
   padding: 4px 10px;
   color: var(--grey);
 }
@@ -80,7 +80,7 @@ footer {
 }
 
 
-/* css Ricardo */
+/* -------- css Ricardo ---------- */
 
 main {
   min-height: 20vh;
