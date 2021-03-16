@@ -50,13 +50,67 @@
         </div>
       </nav>
     </div>
-    <div class="carousel">
-      // Diégo
+    <!----------------------- CAROUSEL : Diego ------------>
+    <div class="container carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/big_image_1.jpg" class="d-block w-100" alt="images/big_image_1.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container-fluid bg-secondary p-3 m-2">
+                <h5>Sports</h5>
+                <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
+                  eaque ipsa laudantium!</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/big_image_3.jpg" class="d-block w-100" alt="images/big_image_3.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container-fluid bg-secondary p-3 m-2">
+                <h5>Sports</h5>
+                <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
+                  eaque ipsa laudantium!</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img_3.jpg" class="d-block w-100" alt="images/img_3.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container-fluid bg-secondary p-3 m-2">
+                <h5>Sports</h5>
+                <h2><strong> How to Find the Video Games of Your Youth </strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nobis, ut dicta
+                  eaque ipsa laudantium!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
+    <!----------------------- CAROUSEL : Diego ------------>
     <div class="container">
       <div class="row">
           <main class="col-lg-9 container-article">
+            <!----------------------- ARTICLE : Diego ------------>
             // Joé
+            <!----------------------- ARTICLE : Diego ------------>
           </main>
           <aside class="col-lg-3">
             <!-- search -->
@@ -68,28 +122,40 @@
             <input type="text" placeholder="Search here..." class="form-control">
             </div>
             <!-- bio -->
-            <div class="card_bio text-center shadow p-4 ">
+            <div class="card_bio text-center shadow p-3 ">
                 <img class="rounded-circle" src="/images/person_1.jpg"
                   alt="woman" width="140" height="140">
                 <h5 class="card-title pt-4">David Craig</h5>
                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tristique tortor, ut lobortis tellus. Proin
                 vestibulum, orci ac sagittis rhoncus, mi arcu facilisis arcu, ut placerat mi nunc vel nisi.</p>
                 <a href="#" class="btn btn-dark btn-sm">Read my bio</a>
-                <div>
+                <div class="social_section">
                   <ul class="list-inline pt-4">
-                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="facebook">
+                    <li class="list-inline-item"><a aria-label="Social networks Facebook" class="text-dark" href="#" target="_blank" title="facebook">
                         <i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="twitter">
+                    <li class="list-inline-item"><a aria-label="Social networksTwitter" class="text-dark" href="#" target="_blank" title="twitter">
                         <i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="instagram">
+                    <li class="list-inline-item"><a aria-label="Social networks Instagram" class="text-dark" href="#" target="_blank" title="instagram">
                         <i class="fab fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="youtube">
+                    <li class="list-inline-item"><a aria-label="Social networks Youtube" class="text-dark" href="#" target="_blank" title="youtube">
                         <i class="fab fa-youtube"></i></a></li>
                   </ul>
                 </div>
               </div>
-            </div>
             <!-- Popular Post -->
+            <div class="card_popular shadow p-3 my-4">
+              <div class=" row">
+                  <h5 class="card-title ">Popular Posts</h5>
+                  <div class="col-5">
+                    <img class="img-fluid"  src="images/img_2.jpg" alt="Paul prend une photo">
+                  </div>
+                  <div class="col-7">
+                    <p class="text-start text-muted fs-9">March 15, 2020</p>
+                    <p class="text-start">How to Find the Video Games of Your Youth</p>
+                  </div>
+              </div>
+              <hr>
+            </div>
             <!-- Categories -->
             <!-- Tags -->
           </aside>

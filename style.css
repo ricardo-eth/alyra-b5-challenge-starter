@@ -92,12 +92,22 @@ aside {
  
 }
 
+/* --- card ---- */
+
+.card-title {
+    font-family: var(--baskerville)
+}
+
+/* --- search aside ---- */
+
 .search-group .input-group-append .btn-outline-secondary{
     border: 1px solid #ced4da;
         border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.card_bio .card-title {
-    font-family: var(--baskerville)
+/* --- social aside ---- */
+
+.social_section ul li {
+padding: 0 5px ;
 }
