@@ -55,3 +55,9 @@ nav .active {
 footer {
   background-color: #363b41;
 }
+
+/* main */
+
+main {
+  height: 1000px;
+}
