@@ -16,6 +16,11 @@ html {
   box-sizing: inherit;
 }
 
+
+hr {
+    margin: 0.5rem 0;
+}
+
 a, a:hover{
   color :var(--dark);
   text-decoration: none;
@@ -63,8 +68,8 @@ footer {
 
 /* css Diégo */
 
-.carousel {
-
+.carousel .carousel-indicators {
+    bottom: 20px;
 }
 
 /* css Joé */
