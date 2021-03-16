@@ -21,7 +21,7 @@
       <a class="navbar-brand fs-1" href="/index.html">AlyraMag</a>
     </h1>
   </header>
-  <div class="container sticky-top">
+  <div class="container-full sticky-top">
     <nav class="p-2 navbar navbar-expand-sm navbar-light bg-light">
       <div class="navbar-container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ul"
@@ -51,12 +51,35 @@
       </div>
     </nav>
   </div>
-  <main class="container-contact">
-      // Carlos
-  </main>
-  <side>
+    <div class="container">
+      <div class="row">
+        <main class="container-contact col-lg-9 shadow">
+          <img class="img-fluid" src="/images/big_image_1.jpg">
+          <h1 class="text-center">Contact US</h1>
+          <p class="text-center">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                  mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+                  magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus
+          </p>
+          <form>
+            <label for="name" class="form-label">Name*</label>
+            <input type="name" class="form-control" id="name" aria-describedby="name">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="phone" class="form-control" id="phone" aria-describedby="PhoneNumber">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div class="mb-3">
+              <label for="textArea" class="form-label">Write Message</label>
+              <textarea class="form-control" id="textArea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </main>
+        <aside class="col-lg-3">
 
-  </side>
+        </aside>
+      </div>
+    </div>
   <footer class="p-4 text-white text-center fw-light">
     &copy; 2020 Made with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
       class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">

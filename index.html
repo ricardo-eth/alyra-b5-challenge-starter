@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f11e74ccac.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -19,7 +20,7 @@
             <a class="navbar-brand fs-1" href="/index.html">AlyraMag</a>
           </h1>
     </header>
-    <div class="container sticky-top">
+    <div class="container-full sticky-top">
       <nav class="p-2 navbar navbar-expand-sm navbar-light bg-light">
         <div class="navbar-container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-ul"
@@ -52,12 +53,48 @@
     <div class="carousel">
       // Diégo
     </div>
-    <main class="container-article">
-      // Joé
-    </main>
-    <side>
-      
-    </side>
+    <div class="container">
+      <div class="row">
+          <main class="col-lg-9 container-article">
+            // Joé
+          </main>
+          <aside class="col-lg-3">
+            <!-- search -->
+            <div class=" search-group input-group mb-3"> 
+              <div class="input-group-append"><button class="btn btn-outline-secondary btn-light">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+            <input type="text" placeholder="Search here..." class="form-control">
+            </div>
+            <!-- bio -->
+            <div class="card_bio text-center shadow p-4 ">
+                <img class="rounded-circle" src="/images/person_1.jpg"
+                  alt="woman" width="140" height="140">
+                <h5 class="card-title pt-4">David Craig</h5>
+                <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec tristique tortor, ut lobortis tellus. Proin
+                vestibulum, orci ac sagittis rhoncus, mi arcu facilisis arcu, ut placerat mi nunc vel nisi.</p>
+                <a href="#" class="btn btn-dark btn-sm">Read my bio</a>
+                <div>
+                  <ul class="list-inline pt-4">
+                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="facebook">
+                        <i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="twitter">
+                        <i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="instagram">
+                        <i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted" href="#" target="_blank" title="youtube">
+                        <i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Popular Post -->
+            <!-- Categories -->
+            <!-- Tags -->
+          </aside>
+      </div>
+    </div>
     <footer class="p-4 text-white text-center fw-light">
       &copy; 2020 Made with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />

@@ -2,6 +2,8 @@
   --dark: #212121;
   --grey: #6c757d;
   --light: #f8f9fa;
+  --montserrat : 'Montserrat', Arial, sans-serif;
+  --baskerville: 'Libre Baskerville', Arial, sans-serif;
 }
 
 html {
@@ -15,13 +17,13 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', Arial, sans-serif;;
+  font-family: var( --montserrat);
 }
 
 /* header */
 
 header h1 {
-  font-family: 'Libre Baskerville', Arial, sans-serif;
+  font-family: var(--baskerville)
 }
 
 header a {
@@ -58,9 +60,6 @@ footer {
 
 /* main */
 
-main {
-  height: 1000px;
-}
 
 /* css Diégo */
 
@@ -78,4 +77,27 @@ main {
 
 .container-contact {
 
+}
+
+
+/* css Ricardo */
+
+main {
+  min-height: 20vh;
+  background: orange;
+}
+
+aside {
+  min-height: 20vh;
+ 
+}
+
+.search-group .input-group-append .btn-outline-secondary{
+    border: 1px solid #ced4da;
+        border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card_bio .card-title {
+    font-family: var(--baskerville)
 }
