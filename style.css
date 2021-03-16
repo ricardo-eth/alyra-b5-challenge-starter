@@ -18,10 +18,11 @@ html {
 
 
 hr {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
-a, a:hover{
+a,
+a:hover{
   color :var(--dark);
   text-decoration: none;
 }
@@ -77,18 +78,6 @@ footer {
 
 }
 
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  width: 31% !important;
-  box-shadow: 5px 5px 5px rgb(214, 213, 213);
-}
-
 .card-person {
   width: 16%;
   object-fit: cover;
@@ -96,7 +85,7 @@ footer {
 }
 
 .card-body > .details > p {
-  color: grey;
+  color: var(--grey);
   text-transform: bold;
 }
 
@@ -104,7 +93,6 @@ footer {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 /* css Carlos */
