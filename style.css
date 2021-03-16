@@ -70,7 +70,38 @@ footer {
 /* css Joé */
 
 .container-article {
+  
 
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 31% !important;
+  box-shadow: 5px 5px 5px rgb(214, 213, 213);
+}
+
+.card-person {
+  width: 16%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-body > .details > p {
+  color: grey;
+  text-transform: bold;
+}
+
+.card-body > .details {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 /* css Carlos */
@@ -84,7 +115,7 @@ footer {
 
 main {
   min-height: 20vh;
-  background: orange;
+  
 }
 
 aside {
