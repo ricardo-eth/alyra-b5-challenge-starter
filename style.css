@@ -35,7 +35,7 @@ body {
   font-family: var( --montserrat);
 }
 
-/* Navigation */
+/* navigation */
 
 nav li {
   display: inline;
@@ -62,9 +62,6 @@ footer {
   background-color: #363b41;
 }
 
-/* main */
-
-
 /* css Diégo */
 
 .carousel .carousel-indicators {
@@ -87,7 +84,6 @@ footer {
 
 /* css Joé */
 
-
 .card-person {
   width: 16%;
   object-fit: cover;
@@ -104,12 +100,6 @@ footer {
   display:flex;
   justify-content: space-between;
   align-items: center;
-}
-
-/* css Carlos */
-
-.container-contact {
-
 }
 
 
