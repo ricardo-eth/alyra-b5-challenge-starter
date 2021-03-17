@@ -71,12 +71,22 @@ footer {
     bottom: 20px;
 }
 
+.card_travel .card_body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .card_travel .card_body p {
+    padding-top: 0;
+  }
+}
+
 /* css Joé */
 
-.container-article {
-  
-
-}
 
 .card-person {
   width: 16%;
