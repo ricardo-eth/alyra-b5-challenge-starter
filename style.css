@@ -87,6 +87,7 @@ footer {
 .card-body > .details > p {
   color: var(--grey);
   text-transform: bold;
+  font-size: 0.8rem;
 }
 
 .card-body > .details {
